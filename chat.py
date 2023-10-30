@@ -10,4 +10,4 @@ while True:
 
     response = llm_function(user_input)
 
-    print("AI:" + response)
+    print("AI: " + response)

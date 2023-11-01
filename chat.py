@@ -7,7 +7,6 @@ while True:
 
     if user_input.lower() == "q":
         break
-
     response = llm_function(user_input)
-
-    print("AI: " + response)
+    output_text = ("AI:" + response)
+    print(output_text)

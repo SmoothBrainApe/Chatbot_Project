@@ -1,2 +1,3 @@
 langchain[llms]
-ctransformers[cuda]
+faiss-cpu
+tiktoken

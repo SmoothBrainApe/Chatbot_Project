@@ -4,6 +4,8 @@ just a basic chatbot inference in the commandline. This is a side project that I
 
 ```
 git clone https://github.com/SmoothBrainApe/Chatbot_Project
+python -m venv venv
+CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python
 pip install -r requirements.txt
 python chat.py
 ```

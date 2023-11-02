@@ -1,3 +1,4 @@
 langchain[llms]
 faiss-cpu
 tiktoken
+unstructured
